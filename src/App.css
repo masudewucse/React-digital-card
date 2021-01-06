@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+
+*{
+ font-size: 14px; 
+}
+section{
+  width: 600px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 3px;
+}
+section:hover{
+  background-color: rgb(244, 244, 237);
+  cursor:pointer
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Profile image */
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ProfileName */
+.profile-title a{
+font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-name a{
+  color: rgb(173, 181, 187);
 }
