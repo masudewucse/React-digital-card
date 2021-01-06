@@ -30,3 +30,9 @@ font-weight: bold;
 .profile-name a{
   color: rgb(173, 181, 187);
 }
+
+/* social icons */
+
+svg{
+  margin: 10px;
+}
